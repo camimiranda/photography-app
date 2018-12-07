@@ -1,0 +1,22 @@
+<div class="container">
+  <form>
+   <div class="form-group">
+   <h1 class="text-app">Log in </h1>
+    <div class="input-group-prepend">
+      <input type="text" #user class="form-control" placeholder="Username" name="username" ngModel>
+      <br>
+      <br>
+      <input type="password" #password class="form-control" placeholder="Password" name="password" ngModel>
+      <span class="input-group-text button-add" (click)="login(username, password)">Login</span>
+    </div>
+   </div>
+  </form>
+  <div class="data">
+    <ul class="list-instyled">
+      <li *ngFor="let todo of todoArray">
+          {{ todo }}
+      </li>
+    </ul>
+  </div>
+ </div>
+
