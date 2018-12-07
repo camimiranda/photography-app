@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.container {
+    display: flex;
+}
+form{
+    max-width: 30em;
+    margin: 4em auto;
+    position: relative;
+    background: #f4f4f4;
+    padding: 2em 3em;
+    white-space: nowrap;
+   }
+   h1{
+       font-family: "Raleway";
+       color:#F97300; 
+   }
+    input[type=text]::placeholder{
+      font-family: "Raleway";
+      color:#666; 
+      white-space: nowrap;
+   }
+   form .data{
+       margin-top: 1em;
+       text-align: center;
+       
+   }
+   form .data li{
+    background: #fff;
+    border-left: 4px solid #F97300;
+    padding: 1em;
+    margin: 1em auto;
+    color: #666;
+    font-family: "Raleway";
+   }
+   form .data li i{
+       float: right;
+       color: #888;
+       cursor: pointer;
+       font-family: "Raleway";
+   }
+   form .input-group-text{
+       background: #F97300;
+       border-radius: 50%;
+       width: 5em;
+        height: 5em;
+        right: 5%;
+       color: #fff;
+       position: relative;
+       text-align: center;
+       cursor: pointer;
+   }
+   form .input-group-text i{
+       font-size: 2em;
+       text-align: center;
+       
+   }
+   form .form-control{
+    height: 3em;
+    font-family: "Raleway";
+    white-space: pre-wrap;
+   }
+   form .form-control:focus{
+    box-shadow: 0;
+   }
